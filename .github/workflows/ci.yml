@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: echo "CI Build: compilar APK quântico ALPHA & OMEGA"
+      - run: echo "CI Build: Compilar APK quântico ORIGINUM :: PULSE"

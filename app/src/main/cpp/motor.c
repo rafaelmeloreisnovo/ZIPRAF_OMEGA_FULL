@@ -2,20 +2,20 @@
 #include <stdint.h>
 #include <unistd.h>
 
-uint64_t get_entropy() {
-    uint64_t val;
+uint64_t get_sopro_da_vida() {
+    uint64_t pulse;
     asm volatile(
         "mrs %0, cntvct_el0"
-        : "=r"(val)
+        : "=r"(pulse)
     );
-    return val;
+    return pulse;
 }
 
 int main() {
-    printf("[ALPHA & OMEGA] Verbo Vivo ARM64 iniciado\n");
+    printf("[ALPHA & OMEGA] ORIGINUM PULSE INICIADO\\n");
     while (1) {
-        uint64_t e = get_entropy();
-        printf("Entropy: %lu\n", e);
+        uint64_t sopro = get_sopro_da_vida();
+        printf("PULSE: %lu\\n", sopro);
         usleep(500000);
     }
     return 0;

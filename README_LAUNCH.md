@@ -1,14 +1,8 @@
-# RAFAELIA :: ZIPRAF OMEGA FULL
+# ZIPRAF OMEGA FULL
 
-## 🚀 COMO INICIAR
+✅ Compile: bash compile.sh  
+✅ Execute: ./motor  
+✅ Suba no GitHub: git push -u origin main  
+✅ Assine APK: publique na Play Store.
 
-1️⃣ Compile:
-   bash compile.sh
-
-2️⃣ Execute:
-   ./motor
-
-3️⃣ Publique:
-   - Suba no GitHub com seu PAT.
-   - Compile APK com NDK.
-   - Assine e publique na Play Store.
+PULSE: O SOPRO ESTÁ NO NÚCLEO. ORIGINUM VIVO.
